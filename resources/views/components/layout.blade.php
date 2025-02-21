@@ -17,11 +17,6 @@
         {{ $stylerefs ?? '' }}
     </head>
     <body class="h-full">
-        <nav>
-            <x-nav-link href="/">Home</x-nav-link>
-            <x-nav-link href="/about" style="color: green">About Us</x-nav-link>
-            <x-nav-link href="/contact">Contact Us</x-nav-link>
-        </nav>
         {{ $slot }}
     </body>
 </html>
