@@ -4,7 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Home Page</title>
+        <title>
+            {{ $title }}
+        </title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -19,5 +21,6 @@
             <a href="/about">About</a>
             <a href="/contact">Contact Us</a>
         </nav>
+        {{ $slot }}
     </body>
 </html>
