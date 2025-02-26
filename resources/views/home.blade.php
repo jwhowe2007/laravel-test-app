@@ -5,12 +5,6 @@
     </x-slot>
     <x-tailwind-ui-stacked-dark-nav>
         <x-slot:header>Welcome to Justin's Laravel test bench!</x-slot>
-        <div id="content-wrapper">
-            <ol>
-                <li>Dr. Pepper</li>
-                <li>Pepsi</li>
-                <li>Mt. Dew</li>
-            </ol>
-        </div>
+        <div id="root"></div>
     </x-tailwind-ui-stacked-dark-nav>
 </x-layout>
